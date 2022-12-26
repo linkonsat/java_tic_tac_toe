@@ -1,5 +1,5 @@
 class Player {
-    private char symbol = ' ';
+    private static char symbol = ' ';
     public static void main(String[] args) {
     }
 
@@ -7,8 +7,8 @@ class Player {
         symbol = newSymbol;
     }
 
-    public static void getSymbol() {
-        return symbol
+    public static char getSymbol() {
+        return symbol;
     }
 
 }
